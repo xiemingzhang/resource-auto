@@ -1,0 +1,29 @@
+{
+  "name": "resourceauto",
+  "version": "1.0.2",
+  "description": " create resource.js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiemingzhang/resource-auto.git"
+  },
+  "keywords": [
+    "cocosjs",
+    "tool"
+  ],
+  "author": "xiemingzhang",
+  "license": "MIT",
+  "bin": {
+    "resource-auto": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/xiemingzhang/resource-auto/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "homepage": "https://github.com/xiemingzhang/resource-auto#readme"
+}
