@@ -84,7 +84,8 @@ function appendObjArr(name){
             let pic1 = /\.(png)/g;
             let pic2 = /\.(jpg)/g;
             let pic3 = /\.(mp3)/g;
-            if(pic1.test(_path) || pic1.test(_path) || pic3.test(_path)){
+            let pic4 = /\.(wav)/g;
+            if(pic1.test(_path) || pic2.test(_path) || pic3.test(_path) || pic4.test(_path)){
                 if(thePath.split('/res/Normal')[1].split('/')[1] === 'source'){
                   objArr.push({
                     name: `${thePath.split('/res/Normal')[1].split('/').length > 2 ? thePath.split('/res/Normal')[1].split('/').slice(2).join('_') + '_' : ''}${_path.split('.')[0]}`,

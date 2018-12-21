@@ -1,6 +1,6 @@
 {
   "name": "resourceauto",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": " create resource.js ",
   "main": "index.js",
   "scripts": {
